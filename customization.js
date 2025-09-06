@@ -8,7 +8,7 @@ module.exports = {
       "Clarence Wijewardena original",
       "Sunil Edirisinghe original",
       "Victor Ratnayake original",
-      "Nanda Malini original",
+      "uvindu",
       "Sanuka Wickramasinghe original",
       "Kasun Kalhara original",
       "Uresha Ravihari original",
@@ -49,7 +49,7 @@ module.exports = {
   //======================download============================
   TIKTOK: function (title, author, q) {
     return `
-🎟️ *QUEEN ANJU-MD TIKTOK DOWNLOADER* 🎟️
+🎟️ ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 🎟️
 
 🔢 *Please reply with the number you want to select:*
 
@@ -60,7 +60,7 @@ URL    * ${q}
   },
   FACEBOOK: function (title, q) {
     return `
-💢 QUEEN ANJU-MD FB DOWNLOADER 💢
+💢 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 💢
     
 🎞 TITLE 🎞 ${title}
 
@@ -69,7 +69,7 @@ Fb-Url: -=-${q}
   },
   TWITTER: function (desc, q) {
     return `
-💢 QUEEN ANJU-MD TWITTER DOWNLOADER 💢
+💢 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 💢
 
 📝 Description: ${desc || "No description"}
 
@@ -81,7 +81,7 @@ Twitter URL: ${q}
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 𝐐𝐔𝐄𝐄𝐍 𝐀𝐍𝐉𝐔 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
+❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
@@ -121,7 +121,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
@@ -145,7 +145,7 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -154,7 +154,7 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOW: function (episodeInfo, quality) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 📺 *TV Show:* ${episodeInfo.title || "N/A"}
 🎞️ *Episode:* ${episodeInfo.episodeTitle || "N/A"}
@@ -173,7 +173,7 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.showInfo.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.showInfo.releaseDate}
@@ -182,14 +182,14 @@ Twitter URL: ${q}
   },
   SIMNHALAMOVIE: function (title) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
         `.trim();
   },
   AWAMOVIE: function (title, releaseDate, country) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${releaseDate}  
@@ -208,7 +208,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:*  ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
@@ -218,7 +218,7 @@ Twitter URL: ${q}
   },
   ADULTMOVIE: function (title, rating, description) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 ──────────────────
 ✨ *Title:* ${title}
 ⭐ *Rating:* ${rating}
@@ -231,7 +231,7 @@ ${description}
   },
   ANIMOMOVIE: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿  
         
 ✨ ${movieData.title}  
 ⭐ Description:${movieData.description} 
@@ -311,7 +311,7 @@ ${description}
   //=====================hiru news===========================================
   AUTONEWS: function (source, newsData, isGroup, groupMetadata, conf) {
     return `
-📰 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑵𝑬𝑾𝑺 』* 🗞️
+📰 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🗞️
 
 ✨ *${source.toUpperCase()} News Update*
 
@@ -326,7 +326,7 @@ ${isGroup ? `\n\n📨 *Shared In:* ${groupMetadata?.subject || "Group"}\n🛡️
   },
   AUTOMOVIE: function (title, rating, metadata, description, isGroup, groupMetadata, conf) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
@@ -345,7 +345,7 @@ ${conf.FOOTER}`.trim();
   },
   AUTOSONG: function (foundSong, currentArtist, nextArtist, config, botNumber, isGroup, groupMetadata) {
     return `
-✨ *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑴𝑼𝑺𝑰𝑪 』* 🎧
+✨ *『 ❤🩵 𝙎𝙚𝙣𝙪𝙧𝙖 𝙈𝘿 🩵❤ 』* 🎧
 
 ━━━━━━━━━━━━━━━━━━━
 🎶 *𝚂𝙾𝙽𝙶 𝙳𝙴𝚃𝙰𝙸𝙻𝚂* 🎼
